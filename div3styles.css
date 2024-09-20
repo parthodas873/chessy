@@ -1,0 +1,165 @@
+    .vertical1
+    {
+        display:flex;
+        flex-direction:column;
+    }
+    .column1
+    {
+        font-size:40px;
+        color:white;
+        padding-left:350px;
+        padding-top:40px;
+    }
+    .lastimg
+    {
+        display:flex;
+        flex-direction:column;
+        border-radius:8px;
+    }
+    .imgpk1
+    {
+        padding-left:100px;
+        border-radius:5px;
+        padding-top:30px;
+    }
+    .textpk1
+    {
+     color:white;   
+     font-size:18px;
+     display:flex;
+     vertical-align:center;
+     padding-left:160px;
+     padding-top:20px;
+     font-family: "Open Sans", sans-serif;
+    }
+    .textpk2
+    {
+        color:white;
+        font-size:18px;
+        margin-top:0px;
+        padding-left:260px;
+        font-family: "Open Sans", sans-serif;
+    }
+    .textpk3
+    {
+        color:white;
+        padding-left:290px;
+        font-family: "Open Sans", sans-serif;
+    }
+    .textpk33
+    {
+        background-color:red;
+        font-family: "Open Sans", sans-serif;
+    }
+    .vertical1
+    {
+        display:flex;
+        flex-direction:column;
+    }
+    .column1
+    {
+        font-size:40px;
+        color:white;
+        padding-left:350px;
+        padding-top:40px;
+    }
+    .lastimg2
+    {
+        display:flex;
+        flex-direction:column;
+        border-radius:8px;
+    }
+    .imgak1
+    {
+        padding-left:100px;
+        border-radius:5px;
+        padding-top:30px;
+    }
+    .textak1
+    {
+     color:white;   
+     font-size:18px;
+     display:flex;
+     vertical-align:center;
+     padding-left:160px;
+     padding-top:20px;
+     font-family: "Open Sans", sans-serif;
+    }
+    .textak2
+    {
+        color:white;
+        font-size:18px;
+        margin-top:0px;
+        padding-left:160px;
+        font-family: "Open Sans", sans-serif;
+    }
+    .textak3
+    {
+        color:white;
+        padding-left:300px;
+        font-family: "Open Sans", sans-serif;
+    }
+    .textak33
+    {
+        background-color:red;
+        font-family: "Open Sans", sans-serif;
+    }
+    .pk
+    {
+        color:white;
+        font-size:100px;
+    }
+    .row1
+    {
+        display:flex;
+        flex-direction: row;
+    }
+    .chess_today
+    {
+        height :60px;
+        width :180px;
+        background-color:rgb(129, 181, 76);
+        border:none;
+        border-radius:6px;
+        font-weight:bold;
+        color:white;
+        font-size:22px;
+    }
+    .but
+    {
+        padding-left:550px;
+        padding-top:40px;
+    }
+    .textkk3
+    {
+        color:white;
+        padding-left:300px;
+        padding-top:5px;
+        font-family: "Open Sans", sans-serif;
+    }
+    .textkk1
+    {
+        padding-top:20px;
+        color:white;
+        padding-left:283px;
+        font-size:20px;
+        font-family: "Open Sans", sans-serif;
+    }
+    .textdk1
+    {
+        color:white;
+        display:flex;
+        justify-content: center;
+        font-size:20px;
+        padding-top:20px;
+        padding-left:60px;
+        font-family: "Open Sans", sans-serif;
+    }
+    .textdk3
+    {
+        color:white;
+        display:flex;
+        justify-content:center;
+        padding-left:60px;
+        font-family: "Open Sans", sans-serif;
+    }

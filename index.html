@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html style="font-family: "Open Sans", sans-serif;">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./div1styles.css">
+        <link rel="stylesheet" href="./div2styles.css">
+        <link rel="stylesheet" href="./div3styles.css">
+        <title>
+            Chess.com-Play Chess Online
+        </title>
+        <style>
+            html
+            {
+                background-color:rgb(48, 47, 44);
+                margin:0;
+            }
+        </style>
+        <style>
+            .play1
+            {
+                display:flex;
+                height:75px;
+                width:300px;
+                background-color:rgb(69, 67, 65);
+                border:none;
+                border-radius:5px;
+                margin-left:100px;
+                margin-top:30px;
+            }
+            .container1
+            {
+                display:flex;
+                flex-direction:row;
+                height:75px;
+                width:300px;
+            }
+            .chessimg1
+            {
+                display:flex;
+                justify-content: flex-start;
+            }
+            .chessimage1
+            {
+                
+                height:75px;
+                flex:0.2;
+                justify-content: flex-start;
+            }
+            .textbig1
+            { justify-content: flex-start;
+                font-family: ;
+                display:flex;
+                padding-top:10px;
+                color:white;
+                font-size: 27px;
+                font-weight:bold;
+                vertical-align:top;
+                font-family: "Open Sans", sans-serif;
+            }
+            .subtext1
+            {
+                font-family: "Open Sans", sans-serif;
+                display:flex;
+                justify-content: flex-end;
+                vertical-align:top;
+                color:white;
+        
+            }
+            .texts1
+            {
+                display:flex;
+                flex-direction:column;
+            }
+        </style>
+        <style>
+            .header
+            {
+                display:flex;
+                background-color:rgb(38, 37, 34);
+                flex-direction: row;
+                height:40px;
+                
+            }
+            .menu
+            {
+                flex:display;
+                flex-direction: row;
+                justify-content: flex-start;
+                vertical-align:center;
+            }
+            .logo
+            {
+                flex:display;
+            }
+            .blank
+            {
+                flex:display;
+                flex:1;
+            }
+            .signupbut
+            {
+            height:32px;
+            width :140px;
+            background-color: rgb(69, 67, 65);
+            border-radius:5px;
+            border:none;
+            font-size:14px;
+            font-weight: bold;
+            color:cyan;
+            }
+            .loginbut
+            {
+                padding-right:10px;
+                width:140px;
+                height:32px;
+                flex:display;
+                background-color:rgb(18, 153, 18);
+                border:none;
+                border-radius:5px;
+                font-weight:bold;
+                color:white;
+                padding-left:5px;
+            }
+            .login
+            {
+                padding-left:10px;
+                vertical-align:center;
+                padding-top:5px;
+                padding-right:5px;
+            }
+            .signup
+            {
+                vertical-align:center;
+                padding-top:5px;
+                padding-left:5px;
+            }
+            .hamburgermenu
+            {
+                padding-top:4px;
+                padding-right:4px;
+                padding-left:4px;
+                width:32px;
+                height:32px;
+                vertical-align: center;
+            }
+            .logoimg
+            {
+                padding-right:4px;
+                padding-left:4px;
+                height:37.5px;
+                width:131px;
+            }
+        </style>
+    <style>
+        .play
+        {
+            display:flex;
+            height:75px;
+            width:300px;
+            background-color:rgb(129, 181, 76);
+            border:none;
+            border-radius:5px;
+            margin-left:100px;
+        }
+        .container
+        {
+            display:flex;
+            flex-direction:row;
+            height:75px;
+            width:300px;
+        }
+        .chessimg
+        {
+            display:flex;
+            justify-content: flex-start;
+        }
+        .chessimage
+        {
+            
+            height:75px;
+            flex:0.2;
+            justify-content: flex-start;
+        }
+        .textbig
+        { justify-content: flex-start;
+            font-family: "Open Sans", sans-serif;
+            display:flex;
+            padding-top:10px;
+            color:white;
+            font-size: 27px;
+            font-weight:bold;
+            vertical-align:top;
+        }
+        .subtext
+        {
+            font-family: "Open Sans", sans-serif;
+            display:flex;
+            justify-content: flex-end;
+            vertical-align:top;
+            color:white;
+            justify-content: flex-start;
+    
+        }
+        .texts
+        {
+            display:flex;
+            flex-direction:column;
+        }
+    </style>
+        <style>
+            .body1
+            {
+                background-color:#302f2c;
+            }
+            .chessboard
+            {
+                padding-top:50px;
+                padding-left:100px;
+                display:flex;
+                flex:0.6;
+                height:500px;
+                width: 600px;
+            }
+            .chessboardimg
+            {
+                border-radius:5px;
+                display:inline;
+            }
+            .body1
+            {
+                display:flex;
+                flex-direction:row;
+
+            }
+            .texts
+            {
+                display:flex;
+                flex-direction:column;
+                flex:1;
+                width:200px;
+                height:300px;
+            }
+            .toptext
+            {
+                padding-left:100px;
+                display:flex;
+                display:inline;
+                font-size:48px;
+                flex:0.2;
+                font-family: "Open Sans", sans-serif;
+                font-weight:bold;
+                color:white;
+                vertical-align: top;
+                padding-top:100px;
+                padding-right:150px;
+                margin-left:0px;
+            }
+            .text2
+            {
+                padding-left:30px;
+            }
+            .subtexter
+            {
+                display:flex;
+                flex:0.2;
+                padding-left:100px;
+                flex-direction:column;
+                color:white;
+                font-weight:bold;
+                font-size:14px;
+                font-family: "Open Sans", sans-serif;
+                vertical-align: top;
+                margin-top:0px;
+            }
+            .textp
+            {
+                display:flex;
+                flex:0.2;
+                padding-left:100px;
+                flex-direction:column;
+                color:cyan;
+                font-weight:bold;
+                font-size:14px;
+                font-family: "Open Sans", sans-serif;
+                vertical-align: top;
+                margin-top:0px;
+            }
+        </style>
+        <style>
+            .second
+            {
+                display:flex;
+                
+                background-color:rgb(38, 37, 34);
+                width:410px;
+                height:922px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <div class="Menu"><img class="hamburgermenu"src="./hamburgermenu.png"></img></div>
+            <div class="logo"><img class="logoimg"src="./logo-removebg-preview.png"></div>
+            <div class="blank"></div>
+            <div class="signup"><button class="signupbut">Sign Up</button></div>
+            <div class="login"><button class="loginbut">Log In</button></div>
+        </div>
+        <div class="body1">
+            <div class="chessboard"><img class="chessboardimg"src="./chessboard.png"></div>
+            <div class="texts">
+                <p class="toptext">Play Chess Online  &nbsp;&nbsp;On The #1 Site! </p>
+                <div class="subtexter"><p class="stats">15,124,359 Games Today &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;182,539 Playing Now</p></div>
+                <button class="play">
+                    <div class="container">
+                        <div class="chessimg"><img class="chessimage" src="./playwhite.cea685ba.png"></div>
+                        <div class="texts">
+                            <div class="textbig">PLAY ONLINE</div>
+                            <div class="subtext">Play with someone at your level</div>
+                        </div>
+                    </div>
+                </button>
+                <button class="play1">
+                    <div class="container1">
+                        <div class="chessimg1"><img class="chessimage1" src="./computer.f36f0d84.png"></div>
+                        <div class="texts1">
+                            <div class="textbig1">Play Computer</div>
+                            <div class="subtext1">Play vs customizable training bots</div>
+                        </div>
+                    </div>
+                </button>
+            <div class="second">
+            </div>
+            </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+        <div class="hello">
+            <div class="text"><p>Solve Chess Puzzles</p>
+            <button class="button5">Solve Puzzles</button>
+            <div class="wool">
+                <div class="img"><img class="img1" src="./hikaru-nakamura.e1ca9267.jpg"></div>
+                <div class="text234">
+                <p>Puzzles are the best way to</p>
+                <p>improve pattern recognition,and</p>
+                <p> <span class="text3">GM</span> Hikaru Nakamura</p>
+                </div>
+            </div>
+            </div>
+            <div class="img9"><img class="img90"src="./board-puzzles.4a54c49f (1).png"></div>
+            </div>
+
+
+
+
+
+            <div class="hello2">
+                <div class="img12"><img class="img" src="./board-lessons.825946d3.png"></div>
+                <div class="text2">
+                <div class="text12">TAKE CHESS LESSON</div>
+                <div class="button2"><button class="button12">Start Lessons</button></div>
+                <div class="bottom2">
+                    <div class="image22"><img class="img22"src="./anna-rudolf.193d08a5.jpg"></div>
+                    <div class="text22">
+                        <div><p1>"Chess.com lessons make it easy to</p1></div>
+                        <div><p2>learn to play,then challenge you</p2></div>
+                        <div><p3>to continue growing "</p3></div>
+                        <div><p4><span class="anna2">IM</span> Anna Rudolf </p4></div>
+                
+                
+                    </div>
+                </div>
+                </div>
+                </div>
+
+
+                <div class="vertical1">
+                    <div class="column1">Follow what's happeing in Chess Today</div>
+                    <div class="row1">
+                    <div class="lastimg">
+                        <div class="imgpk1"><img src="./1517183.1bd832ce.507x286o.afeee052586e.png"></div>
+                        <div class="textpk1">Gukesh Grinds Out Endgame Masterpiece,Both Indian</div>
+                        <div class="textpk2">Teams On Perfect 14/14</div>
+                        <div class="textpk3"><span class="textpk33">NM</span>AnthonyLevin</div>
+                    </div>
+                    <div class="lastimg2">
+                        <div class="imgak1"><img src="./1516919.7e0e2728.507x286o.d641b454c1b7.png"></div>
+                        <div class="textak1">Ties Rule Day As Fioruzja,Yoo Win Titled Tuesday</div>
+                        <div class="textak2"></div>
+                        <div class="textak3"><span class="textak33"></span>NathanielGreen</div>
+                    </div>
+                    </div> <!--row1end-->
+                    <div class="row1">
+                        <div class="lastimg">
+                            <div class="imgpk1"><img src="./31263.c081ca6d.507x286o.e82f48b72924.png"></div>
+                            <div class="textdk1">Chess Played Quick-Discord Bot Batlles</div>
+                            <div class="textpk2"></div>
+                            <div class="textdk3"><span class="textpk33"></span>ChesscomEmeric</div>
+                        </div>
+                        <div class="lastimg2">
+                            <div class="imgak1"><img src="./9851.202e2ac5.507x286o.8bdc6c84f09d.png"></div>
+                            <div class="textkk1">Rare Fourth Moves</div>
+                            <div class="textak2"></div>
+                            <div class="textkk3"><span class="textak33">GM</span>JanistanTV</div>
+                        </div>
+                    </div>
+                    <div class="but"><button class="chess_today">Chess Today</button></div>
+        
+    </body>
+</html>
