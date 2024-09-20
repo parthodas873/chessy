@@ -50,6 +50,7 @@
             }
             .textbig1
             { justify-content: flex-start;
+                font-family: ;
                 display:flex;
                 padding-top:10px;
                 color:white;
@@ -57,7 +58,6 @@
                 font-weight:bold;
                 vertical-align:top;
                 font-family: "Open Sans", sans-serif;
-                justify-content:center
             }
             .subtext1
             {
@@ -238,36 +238,24 @@
             {
                 display:flex;
                 flex-direction:column;
+                flex:1;
+                width:200px;
                 height:300px;
             }
-            .toptext1
+            .toptext
             {
+                padding-left:100px;
                 display:flex;
-                vertical-align: middle;
-                justify-content: center;
+                display:inline;
                 font-size:48px;
                 flex:0.2;
                 font-family: "Open Sans", sans-serif;
                 font-weight:bold;
                 color:white;
                 vertical-align: top;
-                margin-left:0px;
                 padding-top:100px;
-                padding-left:70px;
-            }
-            .toptext2
-            {
-                display:flex;
-                vertical-align: middle;
-                justify-content: center;
-                font-size:48px;
-                flex:0.2;
-                font-family: "Open Sans", sans-serif;
-                font-weight:bold;
-                color:white;
-                vertical-align: top;
+                padding-right:150px;
                 margin-left:0px;
-                padding-left:70px;
             }
             .text2
             {
@@ -322,8 +310,7 @@
         <div class="body1">
             <div class="chessboard"><img class="chessboardimg"src="./chessboard.png"></div>
             <div class="texts">
-                <div class="toptext1">Play Chess Online</div>
-                <div class="toptext2">On The #1 Site! </div>
+                <p class="toptext">Play Chess Online  &nbsp;&nbsp;On The #1 Site! </p>
                 <div class="subtexter"><p class="stats">15,124,359 Games Today &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;182,539 Playing Now</p></div>
                 <button class="play">
                     <div class="container">
